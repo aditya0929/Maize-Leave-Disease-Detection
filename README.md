@@ -15,3 +15,25 @@ Approach for this Project :
 
 is a crucial task in computer vision that involves identifying and classifying different regions or objects within an image. In this project, I will explore three different approaches for image segmentation using deep learning models: **InceptionV3**, **MobileNet**, **VGG16**, and **VGG19**.
 
+**MobileNet** 
+
+By utilizing **transfer learning** with the MobileNet model, we can leverage pre-trained weights and significantly reduce the training time required for our image classification task. This approach is particularly useful when working with limited training data, as we can benefit from the rich representations learned by the base model on a large-scale dataset like ImageNet.
+
+**InceptionV3**
+
+To implement InceptionV3, we start by loading the pre-trained model, which comes with weights learned from the ImageNet dataset. We freeze the layers of the pre-trained model to prevent them from being updated during training, preserving their valuable representations. Next, we add custom layers on top of the pre-trained model, including BatchNormalization, Dense, Dropout, and a final Dense layer with softmax activation for classification. These additional layers enable us to adapt the model to our specific dataset. Finally, we compile the model by specifying an optimizer, a suitable loss function, and metrics for evaluation. This compilation step prepares the model for fine-tuning and training on our dataset.
+
+**VGG16**
+
+**Lastly,** I will utilize the **VGG16** (Visual Geometry Group) architecture, which have deeper and complex structures. These models are renowned for their exceptional performance on various image recognition tasks. By leveraging the pre-trained weights of VGG, I can benefit from the learned features and fine-tune the network for image segmentation on the Lemon Quality Dataset.
+
+
+
+**Throughout the project,** 
+
+I will preprocess the dataset by resizing the images and splitting it into training and testing sets. For training, I will employ a loss function suitable for image segmentation, such as the Dice coefficient or cross-entropy loss, and optimize the models using techniques like stochastic gradient descent, rms prop or Adam optimization.
+
+**After training the models,**
+
+I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the lemon images.
+the comparison.ipynb shows different graphical representation for the metrics evaluation and the model with the best accuracy score can be selected eventhough the other models are also highly accurate.
