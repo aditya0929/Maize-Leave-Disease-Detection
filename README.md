@@ -65,3 +65,7 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 
 
 ## after evaluation, `MobileNet` model looks to be the best fit model in this case of American Sign Language Classification .
+
+**Future Scope**
+
+ON DEPLOYMENT THESE MODEL WILL HAVE A PURPOSE OF DEVELOPING SENSE AND INTERPRETATION OF THE SIGN LANGUAGES 
