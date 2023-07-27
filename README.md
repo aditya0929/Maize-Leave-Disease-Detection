@@ -37,3 +37,13 @@ I will preprocess the dataset by resizing the images and splitting it into train
 
 I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the lemon images.
 the comparison.ipynb shows different graphical representation for the metrics evaluation and the model with the best accuracy score can be selected eventhough the other models are also highly accurate.
+
+
+**Accuracy Comparison**
+
+| `Model`  | `Accuracy` |
+|--------|----------|
+| VGG16  |   91%    |
+| InceptionV3 | 88% |
+| vgg19 | 88% |
+| MobileNet | 91% |
