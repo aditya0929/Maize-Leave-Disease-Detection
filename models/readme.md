@@ -90,7 +90,7 @@
     validation loss,
     training accuracy,
     validation accuracy,
-    mean squared error in terms of ALEXnet and SimpleCNN 
+   
     
 **7. Model prediction and evaluation**
 
