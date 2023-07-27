@@ -48,7 +48,7 @@ the comparison.ipynb shows different graphical representation for the metrics ev
 | vgg19 | 88% |
 | MobileNet | 91% |
 
-Since the models' decent levels of accuracy(88% and above) means that most of their pictures will be almost havinG similar predicted labels with a small room for mistake, the anticipated labels for the sign image labels are as are visualised as follows.
+Since the models' decent levels of accuracy(88% and above) means that most of their pictures will be almost havinG similar predicted labels with a small room for mistake, the anticipated labels for the disease image labels are as are visualised as follows.
 
 **Throughout the project,** 
 
@@ -68,4 +68,4 @@ I will evaluate their performance using appropriate metrics. Additionally, I wil
 
 **Future Scope**
 
-ON DEPLOYMENT THESE MODEL WILL HAVE A PURPOSE OF DEVELOPING SENSE AND INTERPRETATION OF THE SIGN LANGUAGES 
+ON DEPLOYMENT THESE MODEL WILL HAVE A PURPOSE OF DEVELOPINING SENSE AND DISEASE DETECTION
