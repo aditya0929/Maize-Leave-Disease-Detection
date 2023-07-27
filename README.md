@@ -57,3 +57,11 @@ I will preprocess the dataset by resizing the images and splitting it into train
 **After training the models,**
 
 I will evaluate their performance using appropriate metrics. Additionally, I will visualize the segmentation results to gain insights into how well the models can accurately identify and classify different regions within the vegetable images.
+
+## predicted labels 
+
+![image](https://github.com/aditya0929/Maize-Leave-Disease-Detection/assets/127277877/7b5f4c85-b0ad-4502-9f24-d928f0a95a6f)
+
+
+
+## after evaluation, `MobileNet` model looks to be the best fit model in this case of American Sign Language Classification .
